@@ -22,7 +22,6 @@ import butterknife.OnClick;
 */
 public class MainActivity extends AppCompatActivity {
 
-
     @Bind(R.id.textview_test)
     TextView textView;
 
@@ -43,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         binding.setUser(user);
 
         ButterKnife.bind(this);
+        textView.setText("This is initialized by better Knife...");
 
     }
 

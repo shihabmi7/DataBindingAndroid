@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
+
     <data>
-        <variable name="user" type="com.shihab.databindingandroid.model.User"/>
+
+        <variable
+            name="user"
+            type="com.shihab.databindingandroid.model.User" />
     </data>
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center">
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/Base.TextAppearance.AppCompat.Large"
-            android:textStyle="bold"
-            android:text="@{user.firstName , default=hello_place}"/>
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/Base.TextAppearance.AppCompat.Large"
-            android:textStyle="bold"
-            android:text="@{user.lastName}"/>
+        android:gravity="center"
+        android:orientation="vertical">
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
             style="@style/Base.TextAppearance.AppCompat.Large"
-            android:textStyle="bold"
-            android:id="@+id/textview_test"
-            android:text="@{user.lastName}"
-           />
-        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Click Me"
-            android:id="@+id/button_clickMe" />
+            android:text="@{user.firstName , default=hello_place}"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.lastName}"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_test"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/button_clickMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Me" />
     </LinearLayout>
 </layout>
