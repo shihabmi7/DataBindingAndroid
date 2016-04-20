@@ -26,5 +26,10 @@
             android:id="@+id/textview_test"
             android:text="@{user.lastName}"
            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Me"
+            android:id="@+id/button_clickMe" />
     </LinearLayout>
 </layout>
