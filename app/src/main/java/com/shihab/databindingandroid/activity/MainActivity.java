@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.button_clickMe) void Click(){
 
-        Toast.makeText(getApplicationContext(),mes +"with better knife" ,Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),mes +" with better knife" ,Toast.LENGTH_LONG).show();
     }
 
     @Override
