@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DataBindingAndroid</string>
+    <string name="title_activity_list">ListView Binding</string>
+    <string name="title_activity_recycler_view">RecyclerView Binding</string>
+    <string name="title_activity_launcher">Home</string>
+    <string name="txt_simple_demo">Simple Demo</string>
+    <string name="txt_listview_demo">ListView Demo</string>
+    <string name="txt_recycler_view_demo">RecylerView Demo</string>
+    <string name="txt_simple_data_binding">Activity Data Binding</string>
+</resources>
