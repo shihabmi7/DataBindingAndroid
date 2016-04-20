@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         User user = new User("First Name: Shihab", "Last Name: Uddin");
         binding.setUser(user);
 
+        // initize better knife
         ButterKnife.bind(this);
         textView.setText("This is initialized by better Knife...");
 
