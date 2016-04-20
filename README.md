@@ -9,7 +9,7 @@ Better Knife is responsible for Bind Android views and callbacks to fields and m
  Demo Look Like below 
  
  
- ![](https://github.com/shihabmi7/DataBindingAndroid/blob/master/device-2016-04-20-161342.png)
+ ![](https://github.com/shihabmi7/DataBindingAndroid/blob/master/device-2016-04-20-162611.png)
  
  
  
